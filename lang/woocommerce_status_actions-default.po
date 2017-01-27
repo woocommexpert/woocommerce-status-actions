@@ -1,0 +1,442 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Custom Order Status & Actions\n"
+"POT-Creation-Date: 2015-03-02 12:52-0000\n"
+"PO-Revision-Date: 2015-03-02 12:52-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/add_status_form_html.php:374
+msgid "Action Visibility"
+msgstr ""
+
+#: classes/add_status_form_html.php:374
+msgid "(required)"
+msgstr ""
+
+#: classes/add_status_form_html.php:393
+msgid ""
+"Select which statuses need to be applied to the order before this Action "
+"icon is shown."
+msgstr ""
+
+#: classes/add_status_form_html.php:398
+msgid "Hide Bulk Action"
+msgstr ""
+
+#: classes/tables/wc_custom_status_table.class.php:9
+msgid "wc_custom_status_table"
+msgstr ""
+
+#: classes/tables/wc_custom_status_table.class.php:10
+msgid "wc_custom_status_tables"
+msgstr ""
+
+#: classes/tables/wc_custom_status_table.class.php:17
+msgid "No Statuses found"
+msgstr ""
+
+#: classes/tables/wc_custom_status_table.class.php:51
+#: classes/wc_custom_status_settings.php:96
+msgid "Name"
+msgstr ""
+
+#: classes/tables/wc_custom_status_table.class.php:52
+#: classes/wc_custom_status_settings.php:97
+msgid "Label"
+msgstr ""
+
+#: classes/tables/wc_custom_status_table.class.php:53
+msgid "Status"
+msgstr ""
+
+#: classes/tables/wc_custom_status_table.class.php:54
+msgid "Email Notification"
+msgstr ""
+
+#: classes/tables/wc_custom_status_table.class.php:55
+msgid "Include Invoice"
+msgstr ""
+
+#: classes/tables/wc_custom_status_table.class.php:56
+msgid "Email Recipient (s)"
+msgstr ""
+
+#: classes/tables/wc_custom_status_table.class.php:57
+msgid "Action Icon"
+msgstr ""
+
+#: classes/tables/wc_custom_status_table.class.php:58
+msgid "Number of Orders"
+msgstr ""
+
+#: classes/tables/wc_custom_status_table.class.php:59
+msgid "Displays In Reports"
+msgstr ""
+
+#: classes/tables/wc_custom_status_table.class.php:60
+msgid "Custom Trigger Allowed"
+msgstr ""
+
+#: classes/tables/wc_custom_status_table.class.php:124
+msgid "Email Sent"
+msgstr ""
+
+#: classes/tables/wc_custom_status_table.class.php:126
+msgid "No Email Sent"
+msgstr ""
+
+#: classes/tables/wc_custom_status_table.class.php:131
+msgid "Includes Order Information"
+msgstr ""
+
+#: classes/tables/wc_custom_status_table.class.php:133
+msgid "No Order Information"
+msgstr ""
+
+#: classes/tables/wc_custom_status_table.class.php:138
+msgid "Customer"
+msgstr ""
+
+#: classes/tables/wc_custom_status_table.class.php:140
+msgid "Admin"
+msgstr ""
+
+#: classes/tables/wc_custom_status_table.class.php:142
+msgid "Customer & Admin"
+msgstr ""
+
+#: classes/tables/wc_custom_status_table.class.php:144
+msgid "Custom Email Address"
+msgstr ""
+
+#: classes/tables/wc_custom_status_table.class.php:170
+msgid "Not Shown In Reports"
+msgstr ""
+
+#: classes/tables/wc_custom_status_table.class.php:172
+msgid "Shows In Reports"
+msgstr ""
+
+#: classes/tables/wc_custom_status_table.class.php:178
+msgid "Customer Cannot Trigger"
+msgstr ""
+
+#: classes/tables/wc_custom_status_table.class.php:180
+msgid "Customer Can Trigger"
+msgstr ""
+
+#: classes/wc_custom_status_email_html_template.php:18
+msgid "Order:"
+msgstr ""
+
+#: classes/wc_custom_status_email_html_template.php:23
+msgid "Product"
+msgstr ""
+
+#: classes/wc_custom_status_email_html_template.php:24
+msgid "Quantity"
+msgstr ""
+
+#: classes/wc_custom_status_email_html_template.php:25
+msgid "Price"
+msgstr ""
+
+#: classes/wc_custom_status_email_html_template.php:51
+msgid "Customer details"
+msgstr ""
+
+#: classes/wc_custom_status_email_html_template.php:54
+#: classes/wc_custom_status_email_plain_template.php:40
+msgid "Email:"
+msgstr ""
+
+#: classes/wc_custom_status_email_html_template.php:57
+#: classes/wc_custom_status_email_plain_template.php:43
+msgid "Tel:"
+msgstr ""
+
+#: classes/wc_custom_status_email_plain_template.php:18
+#, php-format
+msgid "Order number: %s"
+msgstr ""
+
+#: classes/wc_custom_status_email_plain_template.php:19
+#, php-format
+msgid "Order date: %s"
+msgstr ""
+
+#: classes/wc_custom_status_email_plain_template.php:37
+msgid "Your details"
+msgstr ""
+
+#: classes/wc_custom_status_plugin.class.php:39
+msgid "Statuses"
+msgstr ""
+
+#: classes/wc_custom_status_plugin.class.php:191
+msgid "Add New Status"
+msgstr ""
+
+#: classes/wc_custom_status_plugin.class.php:191
+msgid "Add Status"
+msgstr ""
+
+#: classes/wc_custom_status_plugin.class.php:193
+msgid "Custom Status"
+msgstr ""
+
+#: classes/wc_custom_status_plugin.class.php:195
+msgid "Edit Status"
+msgstr ""
+
+#: classes/wc_custom_status_plugin.class.php:197
+msgid "Delete Status"
+msgstr ""
+
+#: classes/wc_custom_status_plugin.class.php:199
+msgid "Order Statuses"
+msgstr ""
+
+#: classes/wc_custom_status_plugin.class.php:226
+msgid "Order status created."
+msgstr ""
+
+#: classes/wc_custom_status_plugin.class.php:231
+msgid "Order status deleted."
+msgstr ""
+
+#: classes/wc_custom_status_plugin.class.php:236
+#: classes/wc_custom_status_plugin.class.php:496
+msgid "Order status updated."
+msgstr ""
+
+#: classes/wc_custom_status_plugin.class.php:279
+msgid "Settings saved."
+msgstr ""
+
+#: classes/wc_custom_status_plugin.class.php:288
+msgid "Save Changes"
+msgstr ""
+
+#: classes/wc_custom_status_plugin.class.php:416
+msgid "<h3>Required fields</h3> "
+msgstr ""
+
+#: classes/wc_custom_status_plugin.class.php:575
+msgid "Required fields "
+msgstr ""
+
+#: classes/wc_custom_status_plugin.class.php:577
+msgid " missing"
+msgstr ""
+
+#: classes/wc_custom_status_plugin.class.php:714
+msgid "Complete"
+msgstr ""
+
+#: classes/wc_custom_status_plugin.class.php:726
+msgid "Processing"
+msgstr ""
+
+#: classes/wc_custom_status_settings.php:25
+msgid "General Settings"
+msgstr ""
+
+#: classes/wc_custom_status_settings.php:27
+msgid "Status Style"
+msgstr ""
+
+#: classes/wc_custom_status_settings.php:30
+msgid ""
+"This will effect the default WooCommerce's statuses (e.g. Processing, "
+"Completed, etc.)."
+msgstr ""
+
+#: classes/wc_custom_status_settings.php:35
+#: classes/wc_custom_status_settings.php:94
+msgid "Icon"
+msgstr ""
+
+#: classes/wc_custom_status_settings.php:36
+msgid "Fill Text"
+msgstr ""
+
+#: classes/wc_custom_status_settings.php:37
+msgid "Line Text"
+msgstr ""
+
+#: classes/wc_custom_status_settings.php:43
+msgid "Default Status"
+msgstr ""
+
+#: classes/wc_custom_status_settings.php:46
+msgid ""
+"Choose what default status to have upon completed payment. Default: "
+"Processing."
+msgstr ""
+
+#: classes/wc_custom_status_settings.php:61
+msgid "Default Order Statuses"
+msgstr ""
+
+#: classes/wc_custom_status_settings.php:95
+msgid "Slug"
+msgstr ""
+
+#: classes/wc_custom_status_settings.php:98
+msgid "Colour"
+msgstr ""
+
+#: classes/wc_custom_status_settings.php:99
+msgid "Bulk Actions"
+msgstr ""
+
+#: classes/wc_custom_status_settings.php:99
+msgid "Check this box to hide this status from the Bulk Actions menu."
+msgstr ""
+
+#: wc_custom_action_status.php:83 wc_custom_action_status.php:92
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: wc_custom_action_status.php:243
+#, php-format
+msgid " <span class=\"count\">(%s)</span>"
+msgid_plural " <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wc_custom_action_status.php:346
+msgctxt "enhanced select"
+msgid "One result is available, press enter to select it."
+msgstr ""
+
+#: wc_custom_action_status.php:347
+msgctxt "enhanced select"
+msgid "%qty% results are available, use up and down arrow keys to navigate."
+msgstr ""
+
+#: wc_custom_action_status.php:348
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr ""
+
+#: wc_custom_action_status.php:349
+msgctxt "enhanced select"
+msgid "Loading failed"
+msgstr ""
+
+#: wc_custom_action_status.php:350
+msgctxt "enhanced select"
+msgid "Please enter 1 or more characters"
+msgstr ""
+
+#: wc_custom_action_status.php:351
+msgctxt "enhanced select"
+msgid "Please enter %qty% or more characters"
+msgstr ""
+
+#: wc_custom_action_status.php:352
+msgctxt "enhanced select"
+msgid "Please delete 1 character"
+msgstr ""
+
+#: wc_custom_action_status.php:353
+msgctxt "enhanced select"
+msgid "Please delete %qty% characters"
+msgstr ""
+
+#: wc_custom_action_status.php:354
+msgctxt "enhanced select"
+msgid "You can only select 1 item"
+msgstr ""
+
+#: wc_custom_action_status.php:355
+msgctxt "enhanced select"
+msgid "You can only select %qty% items"
+msgstr ""
+
+#: wc_custom_action_status.php:356
+msgctxt "enhanced select"
+msgid "Loading more results&hellip;"
+msgstr ""
+
+#: wc_custom_action_status.php:357
+msgctxt "enhanced select"
+msgid "Searching&hellip;"
+msgstr ""
+
+#: wc_custom_action_status.php:484
+msgid "Order status changed."
+msgstr ""
+
+#: wc_custom_action_status.php:490
+#, php-format
+msgid ". %s orders affected."
+msgstr ""
+
+#: wc_custom_action_status.php:530 wc_custom_action_status.php:532
+msgid "Mark"
+msgstr ""
+
+#: wc_custom_action_status.php:598
+#, php-format
+msgid "Item #%s stock incremented from %s to %s."
+msgstr ""
+
+#: wc_custom_action_status.php:625
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: wc_custom_action_status.php:629
+msgid "You have taken too long. Please go back and retry."
+msgstr ""
+
+#: wc_custom_action_status.php:944
+msgctxt "Order status"
+msgid "Pending Payment"
+msgstr ""
+
+#: wc_custom_action_status.php:945
+msgctxt "Order status"
+msgid "Processing"
+msgstr ""
+
+#: wc_custom_action_status.php:946
+msgctxt "Order status"
+msgid "On Hold"
+msgstr ""
+
+#: wc_custom_action_status.php:947
+msgctxt "Order status"
+msgid "Completed"
+msgstr ""
+
+#: wc_custom_action_status.php:948
+msgctxt "Order status"
+msgid "Cancelled"
+msgstr ""
+
+#: wc_custom_action_status.php:949
+msgctxt "Order status"
+msgid "Refunded"
+msgstr ""
+
+#: wc_custom_action_status.php:950
+msgctxt "Order status"
+msgid "Failed"
+msgstr ""

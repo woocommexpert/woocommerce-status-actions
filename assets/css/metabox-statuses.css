@@ -1,0 +1,186 @@
+.post-type-wc_custom_statuses #post-query-submit{display: none;}
+.post-type-wc_custom_statuses .wp-list-table .column-order_status,
+.post-type-wc_custom_statuses .wp-list-table .column-order_actions,
+.post-type-wc_custom_statuses .wp-list-table .column-email_notification,
+.post-type-wc_custom_statuses .wp-list-table .column-display_in_reports,
+.post-type-wc_custom_statuses .wp-list-table .column-item_editing,
+.post-type-wc_custom_statuses .wp-list-table .column-automatic_trigger,
+.post-type-wc_custom_statuses .wp-list-table .column-orders{
+    width: 70px;
+    text-align: center;
+}
+.status-disabled,
+.status-enabled {
+	margin: 0 auto;
+}
+.post-type-wc_custom_statuses .wp-list-table th.column-sort{
+    padding: 0 4px;
+    width: 28px;
+}
+.post-type-wc_custom_statuses .wp-list-table td.column-sort{
+    cursor: move;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 11px;
+    padding-left: 12px;
+}
+.post-type-wc_custom_statuses .wp-list-table td.column-sort:not(.saving):before {
+    content: "\e032";
+    font-family: 'WooCommerce';
+    text-align: center;
+    line-height: 1;
+    color: #999;
+    width: 30px;
+    height: 100%;
+    display: none;
+}
+.post-type-wc_custom_statuses .wp-list-table tr:hover td.column-sort:not(.saving):before {
+    display: inline;
+}
+.post-type-wc_custom_statuses .wp-list-table td.column-sort .spinner{
+    display: inline-block;
+    visibility: visible;
+    float: none;
+    margin-left: -2px;
+    margin-top: -3px;
+}
+
+.post-type-wc_custom_statuses .wp-list-table .column-order_actions button{
+    margin: 0 auto;
+}
+.post-type-wc_custom_statuses .wp-list-table .column-order_status mark{
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    display: block;
+    font-size: 1.4em;
+    height: 1em;
+    margin: 0 auto;
+    position: relative;
+    text-indent: -9999px;
+    width: 1em;
+}
+#wc-sa-options .panel-wrap{
+	background: #fff;
+	overflow: hidden;
+}
+#wc-sa-options .inside{
+	margin: 0;
+    padding: 0;
+}
+
+#wc-sa-options .wc-sa-tabs{
+	 background-color: #fafafa;
+    border-right: 1px solid #eee;
+    box-sizing: border-box;
+    float: left;
+    line-height: 1em;
+    margin: 0;
+    padding: 0 0 41px;
+    position: relative;
+    width: 20%;
+}
+#wc-sa-options .wc-sa-tabs:after{
+	 background-color: #fafafa;
+    border-right: 1px solid #eee;
+    bottom: -9999em;
+    content: "";
+    display: block;
+    height: 9999em;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+#wc-sa-options .wc-sa-tabs li{
+	display: block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+#wc-sa-options .wc-sa-tabs li a{
+	border-bottom: 1px solid #eee;
+    box-shadow: none;
+    display: block;
+    line-height: 20px !important;
+    margin: 0;
+    padding: 10px;
+    text-decoration: none;
+}
+#wc-sa-options .wc-sa-tabs li a:before{
+	content: "\f107";
+	font-family: dashicons;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 1;
+    margin-right: 0.618em;
+    text-decoration: none;
+    text-transform: none;
+}
+#wc-sa-options .wc-sa-tabs li.active a{
+	background-color: #eee;
+    color: #555;
+    position: relative;
+}
+#wc-sa-options .wc-sa-tabs li.style_options a:before{
+	content: "\f309";
+}
+#wc-sa-options .wc-sa-tabs li.email_options a:before{
+	content: "\f465";
+}
+#wc-sa-options .wc-sa-tabs li.customer_options a:before{
+	content: "\f110";
+}
+#wc-sa-options .wc-sa-tabs li.product_options a:before{
+	content: "\f174";
+}
+#wc-sa-options .wc-sa-tabs li.action_options a:before{
+	content: "\f147";
+}
+#wc-sa-options .wc_sa_options_panel{
+	float: left;
+    width: 80%;
+    display: none;
+}
+#wc-sa-options .wc_sa_options_panel .options_group fieldset ul li {
+	margin-bottom: 1em;
+}
+#wc-sa-options .wc_sa_options_panel .icons-selector .fip-box {
+	font-size: 14px;
+}
+#wc-sa-options .required {
+	margin-left: 4px;
+}
+.woocommerce_options_panel select {
+	width: 50%;
+}
+.woocommerce_options_panel .description.clearfix{
+    clear: both;
+    float: none;
+    display: block;
+}
+i.mce-i-icon {
+    font: 400 20px/1 dashicons;
+    padding: 0;
+    vertical-align: top;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-left: -2px;
+    padding-right: 2px
+}
+.icons-selector .fip-box.current-icon{
+    background: #0085ba;
+    color: #fff;
+}
+
+.wc-sa-tick-icon,
+.wc-sa-cross-icon{
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 20px;
+}
+.wc-sa-cross-icon{
+    color: #999;
+}
+.wc-sa-tick-icon{
+    color: #ad74a2;
+}

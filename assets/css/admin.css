@@ -1,0 +1,35 @@
+.sa_note_prompt_modal .media-modal-content{
+	min-height: 340px;
+}
+.sa_note_prompt_modal .media-frame-content,
+.sa_note_prompt_modal .media-frame-toolbar,
+.sa_note_prompt_modal .media-frame-title{
+	left: 0;
+	padding: 0 16px;
+}
+.sa_note_prompt_modal .media-frame-content{
+	top: 50px;
+	padding: 10px 16px;
+}
+
+.sa_note_prompt_modal.media-modal{
+    height: 320px;
+    left: 50%;
+    margin-left: -250px;
+    width: 500px;
+    margin-top: -160px;
+    top: 50%;
+    left: 50%;
+}
+.sa_note_prompt_modal .media-frame-title h1 {
+	font-size: 18px;
+	padding: 0;
+}
+.sa_note_prompt_modal .media-modal-close {
+	border-left: 1px solid #ddd;
+}
+.sa_note_prompt_modal.media-modal textarea{
+	width: 100%;
+	resize: none;
+	margin-top: 10px;
+}
